@@ -9,54 +9,110 @@
   </head>
   <body>
     <nav class="bg-white flex py-3 space-x-5 mx-10 justify-between">
-        <div class="flex space-x-5 ">
-      <img class="h-6 " src="resources/microsoft.png" alt="microsoft" />
-      <ul class="flex space-x-4 py-1">
-        <li class="text-xs">Microsoft 365</li>
-        <li class="text-xs">Office</li>
-        <li class="text-xs">Windows</li>
-        <li class="text-xs">Surface</li>
-        <li class="text-xs">Xbox</li>
-        <li class="text-xs">Support</li>
+      <div class="flex space-x-5">
+        <img class="h-6" src="resources/microsoft.png" alt="microsoft" />
+        <ul class="flex space-x-4 py-1">
+          <li class="text-xs">Microsoft 365</li>
+          <li class="text-xs">Office</li>
+          <li class="text-xs">Windows</li>
+          <li class="text-xs">Surface</li>
+          <li class="text-xs">Xbox</li>
+          <li class="text-xs">Support</li>
+        </ul>
+      </div>
+      <ul class="flex space-x-5 py-1">
+        <li class="flex">
+          <p class="text-xs hover:underline">All Microsoft</p>
+          <p class="text-xs ml-1 h-1 font-semibold">&or;</p>
+        </li>
+        <li>
+          <img class="h-4" src="resources/loupe.png" alt="" />
+        </li>
+        <li>
+          <img class="h-4" src="resources/shopping-cart.png" alt="" />
+        </li>
+        <li>
+          <img
+            class="h-6 -mt-1 p-1 border rounded-full"
+            src="resources/add-user.png"
+            alt=""
+          />
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+      <img
+        src="/resources/bg.jpeg"
+        alt="background"
+        class="w-full relative z-0"
+      />
+      <div
+        class="flex flex-col w-1/4 pt-28 mx-20 absolute inset-y-24 inset-x-10"
+      >
+        <h1 class="text-5xl font-semibold my-5">Microsoft 365</h1>
+        <p class="font-sans font-medium">
+          Premium Office apps, extra cloud storage, advanced security, and more
+          – all in one convenient subscription
+        </p>
+        <button
+          class="bg-blue-600 font-semibold text-white p-2 rounded-sm my-5 w-fit px-4"
+        >
+          For up to 6 people
+        </button>
+        <a href="#" class="text-blue-600 flex"
+          ><p class="font-bold hover:underline">For 1 person &succ;</p></a
+        >
+      </div>
+    </div>
+    <div class="flex space-x-6 justify-center my-6">
+      <button>
+        <img
+          class="h-7 mr-3"
+          src="/resources/left-arrow.png"
+          alt="left_arrow"
+        />
+      </button>
+      <div class="bg-black h-3 w-3 rounded-full my-2"></div>
+      <div
+        class="bg-white border-black border-2 h-3 w-3 rounded-full my-2"
+      ></div>
+      <button>
+        <img class="h-7 ml-3" src="/resources/next.png" alt="" />
+      </button>
+    </div>
+
+    <div class=" w-fit mx-auto my-10 text-blue-600  font-semibold underline">
+      <ul class="flex space-x-16">
+        <li class="">
+          <img class="mx-auto my-3" src="/resources/win.jpeg" alt="windows" />
+          <p>Choose your Microsoft 365</p>
+        </li>
+        <li>
+          <img
+          class="mx-auto my-3" 
+            src="/resources/icon-LL-surface-kickstand-120x120.jpeg"
+            alt="surface"
+          />
+          <p>Explore Surface devices</p>
+        </li>
+        <li>
+          <img
+          class="mx-auto my-3" 
+            src="/resources/gldn-ICON-LL-xbox-logo-120x120.jpeg"
+            alt="xbox"
+          />
+          <p>Buy Xbox games</p>
+        </li>
+        <li>
+          <img
+          class="mx-auto my-3" 
+          src="/resources/win.jpeg" alt="windows" />
+          <p>Get Windows 11</p>
+        </li>
       </ul>
     </div>
-          <ul class="flex space-x-3 py-1">
-            <li class="flex">
-              <p class="text-xs hover:underline">All Microsoft </p>
-              <p class="text-xs ml-1 h-1 font-semibold"> &or;</p>
-            </li>
-            <li>
-              <img class="h-4" src="resources/loupe.png" alt="" />
-            </li>
-            <li>
-              <img class="h-4" src="resources/shopping-cart.png" alt="" />
-            </li>
-            <li>
-              <img class="h-6 -mt-1 p-1 border rounded-full " src="resources/add-user.png" alt="" />
-            </li>
-          </ul>
-    </nav>
-    <div>
 
-        <div class="w-full h-screen bg-no-repeat bg-right-top" style="background-image: url('resources/bg.jpeg') ;" >
-            <div class="flex flex-col w-1/4 pt-28 mx-20">
-                <h1 class="text-3xl font-semibold my-5">Microsoft 365</h1>
-                <p>Premium Office apps, extra cloud storage, advanced security, and more – all in one convenient subscription</p>
-                <button class="bg-blue-600 font-semibold text-white p-2 rounded-sm my-5 w-fit px-4" >For up to 6 people</button>
-                <a href="#" class="text-blue-600 flex" ><p class="font-bold hover:underline">For 1 person &succ;</p></a>
-                
-            </div>
-        </div>
-    </div>
-    <!-- <div>
-      <button>
-        <img src="/resources/left-arrow.png" alt="left_arrow" />
-      </button>
-      <div>O</div>
-      <div>O</div>
-      <button> 
-        <img src="/resources/next.png" alt="" />
-      </button>
-    </div> -->
+    
   </body>
 </html>
